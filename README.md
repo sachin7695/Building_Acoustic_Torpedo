@@ -38,7 +38,7 @@ This induction process aims to test and prepare a sophomore to undertake all the
 4. Experience in Computer Vision and OpenCV library.
 
 ## General Instructions:
-1. [GitHub Discussions Section](https://github.com/auvnitrkl/software_induction_2021/discussions) shall be used as the communication platform for all announcements, discussions, and Q&A. Communication in other mediums will not be entertained.
+1. [GitHub Discussions Section](https://github.com/auvnitrkl/software_induction_2021/discussions) shall be used as the communication platform for all announcements, discussions, and Q&A.
 
 2. Raise technical issues or bugs in [GitHub Issues Section](https://github.com/auvnitrkl/software_induction_2021/issues). We will do our best to solve all the issues.
 
