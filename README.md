@@ -14,7 +14,7 @@ Follow us on Social Media
   <img align="left" alt="Facebook" width="44px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
 </a>
 <a href="https://auvnitrkl.github.io/">
-  <img align="left" alt="Website" width="45px" src="https://github.com/auvnitrkl/webAssets/blob/main/images/logo.png" />
+  <img align="left" alt="Website" width="50px" src="https://github.com/auvnitrkl/webAssets/blob/main/images/logo.png" />
 </a>
 </div>
 <br/>
@@ -48,9 +48,9 @@ This induction process aims to test and prepare a sophomore to undertake all the
 In the midst of a war, Team Tiburon is assigned a defense contract to build an acoustic torpedo missile capable of following surface vessels, submarines, and enemy torpedos. The team needs to simulate the design and present a proof of concept.
 
 ## Your Tasks, _should you choose to accept it_
-1. Model the torpedo in Gazebo. <span style="color:red;bold;font-weight:bold">Coming Soon</span>
+1. Model the torpedo in Gazebo. **`coming soon`**
 
-2. Simulate the Torpedo to detect and destroy an enemy submarine. <span style="color:red;bold;font-weight:bold">Coming Soon</span>
+2. Simulate the Torpedo to detect and destroy an enemy submarine. **`coming soon`**
 
 ## Submission Guidelines:
 
@@ -65,17 +65,16 @@ cd ~/tiburon_ws/src
 git clone git@github.com:<your_github_username>/tiburon_software_induction.git
 ```
 ```sh
+cd tiburon_software_induction
 git remote add public https://github.com/auvnitrkl/software_induction_2021.git
 ```
 ```sh
 catkin build
 ```
 
-3. You will be asked to add one of the Tiburon Software Mentor to your repository as a collaborator at the end of week 1.
+3. You will be asked to add one of the Tiburon Software Mentor to your repository as a collaborator at the end of week 1. You shall regularly commit and push your changes in your private repository, which your mentor will watch.
 
-4. Regularly commit and push your changes in your private repository, which your mentor will watch.
-
-5. When a new task is uploaded in the auvnitrkl public repository, you have to merge those changes in your private repository using the following commands. (If a message prompts in the terminal regarding merge, press Ctrl+x to exit)
+4. When a new task is uploaded in the auvnitrkl public repository, you have to merge those changes in your private repository using the following commands. (If a message prompts in the terminal regarding merge, press Ctrl+x to exit)
 ```sh
 git pull public main
 ```
