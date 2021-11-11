@@ -50,7 +50,7 @@ In the midst of a war, Team Tiburon is assigned a defense contract to build an a
 ## Your Tasks, _should you choose to accept it_
 1. Model the torpedo in Gazebo. **[Read More](torpedo/README.md)**
 
-2. Simulate the Torpedo to detect and destroy an enemy submarine. **`coming soon`**
+2. Simulate the Torpedo to detect and destroy an enemy submarine. **[Read More](warzone/README.md)**
 
 ## Submission Guidelines:
 

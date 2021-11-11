@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version='1.7'>
+  <model name="warzone_ocean">
+    <static>1</static>
+    <link name="warzone_ocean_link">
+      <visual name="surface">
+        <pose>0 0 0 0 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>400 400</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <uri>model://warzone_ocean/materials/textures</uri>
+            <name>warzone_ocean/surface</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="surface_bottom">
+        <pose>0 0 0 3.14159265359 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>400 400</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <name>warzone_ocean/wall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="seabed">
+        <pose>0 0 -70.0 0 0 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>400 400</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <uri>model://warzone_ocean/materials/textures</uri>
+            <name>warzone_ocean/sand</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="front_wall">
+        <pose>0 200 -35.0 1.57079632679 0 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>400 70</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <name>warzone_ocean/wall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="back_wall">
+        <pose>0 -200 -35.0 -1.57079632679 0 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>400 70</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <name>warzone_ocean/wall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="left_wall">
+        <pose>200 0 -35.0 0 -1.57079632679 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>70 400</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <name>warzone_ocean/wall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="right_wall">
+        <pose>-200 0 -35.0 0 1.57079632679 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>70 400</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://warzone_ocean/materials/scripts</uri>
+            <name>warzone_ocean/wall</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
