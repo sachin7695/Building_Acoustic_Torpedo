@@ -32,15 +32,12 @@
       <name>warzone_ocean</name>
     </include>
 
-    <include>
-      <uri>model://torpedo</uri>
-      <name>torpedo</name>
-      <pose>10 10 0 0 0 0</pose>
-    </include>
-
     <plugin name="warzone" filename="libwarzone.so">
       <submarine>submarine</submarine>
       <torpedo>torpedo</torpedo>
+      <radius>50</radius>
+      <angular_vel>0.05</angular_vel>
+      <depth>-10</depth>
     </plugin>
 
   </world>

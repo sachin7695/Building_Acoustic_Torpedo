@@ -57,6 +57,7 @@
 
       <visual name="front_wall">
         <pose>0 200 -35.0 1.57079632679 0 0</pose>
+        <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
@@ -73,6 +74,7 @@
 
       <visual name="back_wall">
         <pose>0 -200 -35.0 -1.57079632679 0 0</pose>
+        <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
@@ -89,6 +91,7 @@
 
       <visual name="left_wall">
         <pose>200 0 -35.0 0 -1.57079632679 0</pose>
+        <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
@@ -105,6 +108,7 @@
 
       <visual name="right_wall">
         <pose>-200 0 -35.0 0 1.57079632679 0</pose>
+        <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
