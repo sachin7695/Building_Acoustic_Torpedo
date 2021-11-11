@@ -48,7 +48,7 @@ This induction process aims to test and prepare a sophomore to undertake all the
 In the midst of a war, Team Tiburon is assigned a defense contract to build an acoustic torpedo missile capable of following surface vessels, submarines, and enemy torpedos. The team needs to simulate the design and present a proof of concept.
 
 ## Your Tasks, _should you choose to accept it_
-1. Model the torpedo in Gazebo. **`coming soon`**
+1. Model the torpedo in Gazebo. **[Read More](torpedo/README.md)**
 
 2. Simulate the Torpedo to detect and destroy an enemy submarine. **`coming soon`**
 

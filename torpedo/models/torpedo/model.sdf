@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version='1.6'>
+  <model name='torpedo'>
+
+    <link name='base_link'>
+      <!--TODO-->
+    </link>
+
+    <link name='propeller_link'>
+      <!--TODO-->
+    </link>
+
+    <joint name='propeller_joint' type='revolute'>
+      <parent>base_link</parent>
+      <child>propeller_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+
+    <link name='rudder_link'>
+      <!--TODO-->
+    </link>
+
+    <joint name='rudder_joint' type='revolute'>
+      <parent>base_link</parent>
+      <child>rudder_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+
+    <!-- <plugin name='torpedo_plugin' filename='libTorpedoPlugin.so'>
+      <namespace>torpedo</namespace>
+      <propeller_joint>propeller_joint</propeller_joint>
+      <rudder_joint>rudder_joint</rudder_joint>
+    </plugin> -->
+
+  </model>
+</sdf>
