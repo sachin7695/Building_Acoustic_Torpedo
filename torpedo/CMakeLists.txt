@@ -34,5 +34,5 @@ catkin_package(
 link_directories(${Boost_LIBRARY_DIRS} ${GAZEBO_LIBRARY_DIRS})
 include_directories(${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE_DIRS})
 
-#add_library(${PROJECT_NAME} SHARED src/TorpedoPlugin.cc)
-#target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
+add_library(${PROJECT_NAME} SHARED src/TorpedoPlugin.cc)
+target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})

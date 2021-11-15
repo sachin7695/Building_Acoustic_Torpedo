@@ -30,11 +30,13 @@
       </axis>
     </joint>
 
-    <!-- <plugin name='torpedo_plugin' filename='libTorpedoPlugin.so'>
+    <plugin name='torpedo_plugin' filename='libtorpedo.so'>
       <namespace>torpedo</namespace>
       <propeller_joint>propeller_joint</propeller_joint>
-      <rudder_joint>rudder_joint</rudder_joint>
-    </plugin> -->
+      <propeller_topic>/propeller/velocity</propeller_topic>
+      <rudder_link>rudder_link</rudder_link>
+      <rudder_topic>/rudder/angle</rudder_topic>
+    </plugin>
 
   </model>
 </sdf>

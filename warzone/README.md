@@ -10,7 +10,7 @@ This task aims to test your knowledge in ROS and basic robotics concepts such as
 - PID Controller
 
 ## How should you proceed:
-1. Write codes to subscribe from `/torpedo/hydrophones/headings` & `/torpedo/hydrophones/distance` topics and publish on `/torpedo/rudder/angle` & `torpedo/propellers/velocity` topics. [ROS Publisher Subscriber Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
+1. Write codes to subscribe from `/torpedo/hydrophones/headings` & `/torpedo/hydrophones/distance` topics and publish on `/torpedo/rudder/angle` & `/torpedo/propeller/velocity` topics. [ROS Publisher Subscriber Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
 2. Use the following rostopic commands to get details of the topic and debug your code.
   - `rostopic list`: list all available ros topics.

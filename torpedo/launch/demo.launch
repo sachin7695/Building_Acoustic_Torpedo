@@ -5,5 +5,7 @@
     <arg name="world_name" value="$(find torpedo)/worlds/demo.world"/>
   </include>
 
-  <include file="$(find torpedo)/launch/spawn.launch"/>
+  <include file="$(find torpedo)/launch/spawn.launch">
+    <arg name="z" value="1"/>
+  </include>
 </launch>
