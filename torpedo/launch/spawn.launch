@@ -2,12 +2,12 @@
 
 <launch>
   <arg name="robot_name" default="torpedo"/>
-  <arg name="x" default="0"/>
+  <arg name="x" default="-150"/>
   <arg name="y" default="0"/>
   <arg name="z" default="-10"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
-  <arg name="yaw" default="0"/>
+  <arg name="yaw" default="-1.57"/>
   <arg name="model" default="torpedo"/>
 
   <node name="$(arg robot_name)_spawn_sdf"
