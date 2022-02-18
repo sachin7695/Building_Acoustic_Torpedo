@@ -1,6 +1,6 @@
 # Team Tiburon Software Inductions 2021
 ![](images/tiburon.jpg)
-<div>
+<!-- <div>
 Follow us on Social Media
 <br/>
 <br/>
@@ -16,7 +16,7 @@ Follow us on Social Media
 <a href="https://auvnitrkl.github.io/">
   <img align="left" alt="Website" width="50px" src="https://github.com/auvnitrkl/webAssets/blob/main/images/logo.png" />
 </a>
-</div>
+</div> -->
 <br/>
 <br/>
 <br/>
