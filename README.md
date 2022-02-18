@@ -37,47 +37,4 @@ This induction process aims to test and prepare a sophomore to undertake all the
 3. Basic knowledge of Control Systems (PID Controller).
 4. Experience in Computer Vision and OpenCV library.
 
-## General Instructions:
-1. [GitHub Discussions Section](https://github.com/auvnitrkl/software_induction_2021/discussions) shall be used as the communication platform for all announcements, discussions, and Q&A.
 
-2. Raise technical issues or bugs in [GitHub Issues Section](https://github.com/auvnitrkl/software_induction_2021/issues). We will do our best to solve all the issues.
-
-3. Follow this [Getting Started](GETTING_STARTED.md) for all installation walkthroughs and setup guide.
-
-## Problem Statement:
-In the midst of a war, Team Tiburon is assigned a defense contract to build an acoustic torpedo missile capable of following surface vessels, submarines, and enemy torpedos. The team needs to simulate the design and present a proof of concept.
-
-## Your Tasks, _should you choose to accept it_
-1. Model the torpedo in Gazebo. **[Read More](torpedo/README.md)**
-
-2. Simulate the Torpedo to detect and destroy an enemy submarine. **[Read More](warzone/README.md)**
-
-## Submission Guidelines:
-
-1. Visit https://github.com/new/import and fill in the details as mentioned below. **Note: Make sure to select the Private option.**
-![](images/github.png)
-
-2. Clone & Build the Repository:
-```sh
-cd ~/tiburon_ws/src
-```
-```sh
-git clone git@github.com:<your_github_username>/tiburon_software_induction.git
-```
-```sh
-cd tiburon_software_induction
-git remote add public https://github.com/auvnitrkl/software_induction_2021.git
-```
-```sh
-catkin build
-```
-
-3. You will be asked to add one of the Tiburon Software Mentor to your repository as a collaborator at the end of week 1. You shall regularly commit and push your changes in your private repository, which your mentor will watch.
-
-4. When a new task is uploaded in the auvnitrkl public repository, you have to merge those changes in your private repository using the following commands. (If a message prompts in the terminal regarding merge, press Ctrl+x to exit)
-```sh
-git pull public main
-```
-```sh
-git push origin main
-```
